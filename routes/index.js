@@ -3,7 +3,7 @@ const router = express.Router()
 
 router.get('/',(req, res)=>
 {
-    res.render('alternateIndex')
+    res.render('index')
 })
 
 module.exports = router
